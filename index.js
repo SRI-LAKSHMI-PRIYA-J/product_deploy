@@ -14,5 +14,5 @@ mongoose.connect('mongodb+srv://SriLakshmiPriyaJ:Slp2005p@mycluster.hnuup.mongod
 app.use("", productRouter);
 console.log('nwe thing is updated')
 
-//app.get('/', (req, res)=>{
- //res.send('server reacted...')})
+app.get('/', (req, res)=>{
+ res.send('server reacted...')})
